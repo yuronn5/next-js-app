@@ -1,3 +1,10 @@
+export const metadata = {
+  title: "About",
+  description: "About page",
+  keywords: "about, nextjs, blog",
+  
+}
+
 export default function About() {
   return (
     <div>

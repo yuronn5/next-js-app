@@ -1,1 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background-color: #181818;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  border-bottom: 2px solid #2c2c2c;
+  padding: 20px 50px;
+}
+header nav {
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #cb2222;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.container {
+  padding: 0 50px;
+}

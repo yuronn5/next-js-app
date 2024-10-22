@@ -1,0 +1,33 @@
+/* Home.module.css */
+.container {
+    margin: 0 auto;
+    padding: 16px; /* You can adjust this if needed */
+  }
+  
+  .main-title {
+    text-align: center;
+    font-size: 2rem; /* Equivalent to Tailwind's text-3xl */
+    font-weight: bold;
+    margin: 16px 0;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Equivalent to grid-cols-1 */
+    gap: 16px; /* Equivalent to Tailwind's gap-4 */
+  }
+  
+  @media (min-width: 768px) {
+    /* md:grid-cols-4 equivalent */
+    .grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  .grid-item {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* Equivalent to Tailwind's aspect-square */
+    object-fit: cover;
+    height: 200px;
+  }
+  

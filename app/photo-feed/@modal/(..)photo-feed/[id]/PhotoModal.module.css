@@ -1,0 +1,23 @@
+/* PhotoModal.module.css */
+.modal-image {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* Equivalent to Tailwind's aspect-square */
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 16px;
+  }
+  
+  .modal-title {
+    font-size: 1.25rem; /* Equivalent to Tailwind's text-xl */
+    font-weight: 600; /* Equivalent to Tailwind's font-semibold */
+    margin-bottom: 8px;
+  }
+  
+  .modal-subtitle {
+    margin-bottom: 4px;
+  }
+  
